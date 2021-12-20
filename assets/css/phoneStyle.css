@@ -1,0 +1,9 @@
+body {
+    background-image: url(../img/PhoneBackground1.jpg);
+    background-size: 400px 700px;
+    background-repeat: no-repeat;
+}
+
+.Whatsapp {
+    background-image: url(../img/WhatsAppIcon.jpg)
+}
