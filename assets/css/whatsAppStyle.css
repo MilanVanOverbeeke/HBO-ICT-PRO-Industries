@@ -1,0 +1,158 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+
+  #ExerciseText {
+    float: left;
+    border-radius: 8px;
+    width: 200px;
+    height: 120px;
+    margin: 5px;
+    font-size: 17px;
+    text-align: start;
+    padding-left: 4px;
+    border-width: 0px;
+    background-color: rgb(57, 58, 57);
+    color: white;
+    font-family: monospace;
+  }
+
+  .logo-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-top: -10px; 
+    background-image: url(../img/HaroldAvatar.jpg);
+    background-position: center;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 50px;
+  }
+  
+  .textBar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: 40px;
+  }
+
+  .sendButton {
+    background-color: rgb(36, 97, 49);
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    margin-left: 118%;
+    text-align: center;
+    font-size: 20px
+  }
+
+  .textArea {
+    background-color: rgb(94, 92, 92);
+    border-radius: 8px;
+    height: 30px;
+    width: 220px;
+    margin: 5px;
+  }
+
+  /* .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    background-image: url(../img/WhatsAppBackground.jpg);
+    background-size: 350px;
+  
+  }
+  
+  #Option1 {
+    float: right;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    margin-top: 100px;
+    margin-right: 5px;
+    font-size: 17px;
+    text-align: start;
+    border-width: 0px;
+    background-color: rgb(48, 148, 70);
+    color: white;
+    font-family: monospace;
+  }
+
+  #Option1:hover {
+    background-color: rgb(51, 94, 68);
+  }
+
+  #Option2 {
+    float: right;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    text-align: start;
+    border-width: 0px;
+    background-color: rgb(48, 148, 70);
+    color: white;
+    font-family: monospace;
+  }  
+
+  #Option2:hover {
+    background-color: rgb(51, 94, 68);
+  }
+
+  #Option3 {
+    float: right;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+    text-align: start;
+    border-width: 0px;
+    background-color: rgb(48, 148, 70);
+    color: white;
+    font-family: monospace;
+  }
+
+  #Option3:hover {
+    background-color: rgb(51, 94, 68);
+  }
+
+  
