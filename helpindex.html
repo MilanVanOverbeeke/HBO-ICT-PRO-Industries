@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/help.css">
+    <title>Document</title>
+</head>
+<body>
+    <p id="info">Hier kun je voor iedere app een korte uitleg vinden over wat je moet doen bij elk spel</p>
+    <button type="button" class="collapsible">WhatsApp</button>
+      <div class="content">
+        <p>Het doel van het spel is om de beste opties te nemen. Met elk goed antwoord krijg je punten.</p>
+      </div>
+
+    <button type="button" class="collapsible">VirusGame</button>
+      <div class="content">
+        <p>Ontwijk de virussen en pak de hartjes om zolang mogelijk te overleven en de hoogste score te behalen.</p>
+      </div>
+
+    <button type="button" class="collapsible">FriendSwiper</button>
+      <div class="content">
+        <p>Beslis bij elk persoon of het verstandig is om diegene als vriend toe te voegen of niet. Bij elke juiste beslissing krijg je punten</p>
+      </div>
+
+    <button type="button" class="collapsible">EmailGame</button>
+      <div class="content">
+        <p>Lees de emails en beslis of de mails veilig zijn. Rapporteer de verdachte mails en archiveer de veilige</p>
+      </div>
+    
+    <button type="button" class="collapsible">Instellingen</button>
+      <div class="content">
+        <p>Lees de emails en beslis of de mails veilig zijn. Rapporteer de verdachte mails en archiveer de veilige</p>
+      </div>
+
+    
+    <button type="button" class="collapsible">Winkel</button>
+      <div class="content">
+        <p>Hier kan je je punten uitgeven die je tijdens de verschillende spellen kunt verdienen</p>
+      </div>
+    <script> 
+        let coll = document.getElementsByClassName("collapsible");
+        let i;
+  
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("cactive");
+            let content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }</script>
+</body>
+</html>
