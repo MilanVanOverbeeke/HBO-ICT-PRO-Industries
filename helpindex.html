@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/help.css">
+  <title>Cyber School</title>
+</head>
+
+<body>
+  <p id="info">Hier kun je voor iedere app een korte uitleg vinden over wat je moet doen bij elk spel</p>
+  <button type="button" class="collapsible">WhatsApp</button>
+  <div class="content">
+    <p class="uitleg">Het doel van het spel is om de beste antwoord te kiezen. Met elk goed antwoord krijg je punten.
+    </p>
+  </div>
+
+  <button type="button" class="collapsible">VirusGame</button>
+  <div class="content">
+    <p class="uitleg"> Ontwijk de virussen en pak de hartjes om zolang mogelijk te overleven en het hoogste level te
+      behalen.</p>
+  </div>
+  <script>
+    let coll = document.getElementsByClassName("collapsible");
+    let i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("cactive");
+        let content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }</script>
+</body>
+
+</html>
