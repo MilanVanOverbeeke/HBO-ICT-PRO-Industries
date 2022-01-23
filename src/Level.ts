@@ -58,15 +58,15 @@ export default class Level extends Scene {
     dom.style.backgroundImage = backgroundImages[Game.randomNumber(0, backgroundImages.length)];
 
     const playerImages = [
-      '/assets/img/computer-gif-image.gif',
-      '/assets/img/computer-player-blue.png',
-      '/assets/img/computer-player-red.png',
-      '/assets/img/computer-player-heart.png',
-      '/assets/img/computer-player-green.png',
-      '/assets/img/computer-player-blush.png',
-      '/assets/img/computer-player-old.png',
-      '/assets/img/computer-player-pink.png',
-      '/assets/img/computer-player-pirate.png',
+      './assets/img/computer-gif-image.gif',
+      './assets/img/computer-player-blue.png',
+      './assets/img/computer-player-red.png',
+      './assets/img/computer-player-heart.png',
+      './assets/img/computer-player-green.png',
+      './assets/img/computer-player-blush.png',
+      './assets/img/computer-player-old.png',
+      './assets/img/computer-player-pink.png',
+      './assets/img/computer-player-pirate.png',
     ];
 
     // create player
