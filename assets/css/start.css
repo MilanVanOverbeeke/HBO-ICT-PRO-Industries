@@ -1,0 +1,26 @@
+body {
+    background: radial-gradient(rgb(2, 35, 78) 0%, rgb(12, 71, 78) 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+
+    }
+
+    #logo{
+        border-radius: 12px;
+        height: 300px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 220px;
+        filter: brightness(100%);
+        display: block;    
+        }
+      
+      #logo:hover {
+        filter: brightness(80%);
+      }
+
+      
+    

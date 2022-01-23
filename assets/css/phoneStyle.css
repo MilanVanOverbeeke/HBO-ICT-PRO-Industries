@@ -1,0 +1,43 @@
+body {
+    background-image: url(../img/PhoneBackground1.jpg);
+    background-size: 300px 525px;
+    background-repeat: no-repeat;
+}
+
+.app{
+    size: 200px 200px;
+    width: 75px;
+    height: 75px;
+    margin: 11px;
+    border-radius: 12px;
+}
+
+.button {
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 11px;
+    margin: 11px;
+}
+
+#buttons {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-columns: auto;
+}
+
+#WhatsAppImg {
+    filter: brightness(100%);
+}
+
+#WhatsAppImg:hover {
+    filter: brightness(80%);
+}
+
+#VirusGameButton:hover {
+    filter: brightness(80%);
+}
+
+#HelpButton:hover {
+    filter: brightness(80%);
+}

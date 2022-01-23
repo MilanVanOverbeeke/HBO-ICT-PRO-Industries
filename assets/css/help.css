@@ -1,0 +1,45 @@
+body{
+  background-color:rgb(56, 107, 112) 100%;
+  background-size: 300px 525px;
+  background-repeat: no-repeat;
+}
+
+#info{
+  font-family:monospace;
+  color: white;
+  border:black solid 1px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.collapsible {
+  background-color: rgb(80, 73, 179);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border: black solid 1px;
+  font-family: monospace;
+}
+
+.cactive,
+.collapsible:hover {
+  background-color: rgb(9, 0, 128);
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: rgba(9, 0, 128, 0.342);
+  width: 100%;
+  color: white;
+  border: black solid 1px;
+}
+
+.uitleg{
+  font-family: monospace;
+}
