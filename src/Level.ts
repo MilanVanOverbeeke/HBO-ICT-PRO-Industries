@@ -42,16 +42,16 @@ export default class Level extends Scene {
 
     // background chooser
     const backgroundImages = [
-      'url(./assets/img/background-blue-tint.png)',
-      'url(./assets/img/background-cyan.png)',
-      'url(./assets/img/background-blue.png)',
-      'url(./assets/img/background-red.png)',
-      'url(./assets/img/background-red-tint.png)',
-      'url(./assets/img/background-purple.png)',
-      'url(./assets/img/background-purple-tint.png)',
-      'url(./assets/img/background-green.png)',
-      'url(./assets/img/background-orange.png)',
-      'url(./assets/img/background-yellow.png)',
+      "url('./assets/img/background-blue-tint.png')",
+      "url('./assets/img/background-cyan.png')",
+      "url('./assets/img/background-blue.png')",
+      "url('./assets/img/background-red.png')",
+      "url('./assets/img/background-red-tint.png')",
+      "url('./assets/img/background-purple.png')",
+      "url('./assets/img/background-purple-tint.png')",
+      "url('./assets/img/background-green.png')",
+      "url('./assets/img/background-orange.png')",
+      "url('./assets/img/background-yellow.png')",
     ];
 
     const dom = document.getElementById('canvas');
