@@ -17,7 +17,7 @@ NodeJS and NPM locally. Feel free to delete it if that's the case.
 
 
 
-## Auteuren
+## Auteurs
 
 * **Jay Groenendijk** 
 * **Milan van Overbeeke**
